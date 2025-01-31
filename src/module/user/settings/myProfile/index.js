@@ -46,7 +46,7 @@ function MyProfile() {
     // const [initLoading, setInitLoading] = useState(false);
 //   const [loading, setLoading] = useState(false);
 
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const showModal = () => {
     setIsModalOpen(true);
