@@ -79,7 +79,7 @@ function MyProfile() {
          actions={[<Link className='' onClick={showModal} key=""><Icon icon="solar:pen-line-duotone" width={20} className='me-1 d-flex'></Icon></Link>, ]}
         >
           {/* <Skeleton avatar title={false} active> */}
-            <List.Item.Meta style={{maxWidth: "310px"}} className=' d-flex align-items-center'
+            <List.Item.Meta style={{minWidth: "310px"}} className=' d-flex align-items-center'
               avatar={<Avatar size={40} style={{backgroundColor: '#025497',fontSize:'17px'}} className='me-0'>{item.name?.charAt(0) || '-'}</Avatar>}
               title={<span className='main-title'>{item.name}</span>}
               description={<span>Added: <b style={{color:'#333'}}>{item.addedDate}</b></span>}

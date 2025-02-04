@@ -129,7 +129,7 @@ const GlobalStyles = createGlobalStyle`
     margin-left: auto;
 }
 .ant-pagination .ant-pagination-item-active{
-    border-color: #613cea;
+    // border-color: #613cea;
 }
 .ant-pagination .ant-pagination-item-active a {
     color: #ffffff;
@@ -148,7 +148,7 @@ const GlobalStyles = createGlobalStyle`
     color: #ffffff;
 }
 .ant-pagination .ant-pagination-item-active:hover {
-    border-color: #613cea;
+    // border-color: #613cea;
 }
 
 .form-control {

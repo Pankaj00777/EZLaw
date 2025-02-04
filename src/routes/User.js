@@ -1,9 +1,12 @@
 
+import AllOrders from "../module/user/allOrders";
 import Dashboard from "../module/user/dashboard";
 import Recommendations from "../module/user/recommendations";
 import Settings from "../module/user/settings";
-import MyProfile from "../module/user/settings/myProfile";
-import PaymentMethod from "../module/user/settings/paymentMethod";
+import VirtualMailBox from "../module/user/virtualMailbox";
+
+// import MyProfile from "../module/user/settings/myProfile";
+// import PaymentMethod from "../module/user/settings/paymentMethod";
 
 
 
@@ -21,14 +24,14 @@ export const User = [
     path: "settings",
     element: <Settings />,
   },
-  // {
-  //   path: "settings/myprofile",
-  //   element: <MyProfile />,
-  // },
-  // {
-  //   path: "settings/paymentmethod",
-  //   element: <PaymentMethod />,
-  // },
+  {
+    path: "virtual-mailbox",
+    element: <VirtualMailBox />,
+  },
+  {
+    path: "all-orders",
+    element: <AllOrders />,
+  },
 
   // {
   //   path: "reports/inventory-ledger-report",

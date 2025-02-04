@@ -14,7 +14,16 @@ export const UserMenu = [
     label: "Settings",
     icon:'solar:settings-bold-duotone' 
   },
-
+  {
+    key: "virtual-mailbox",
+    label: "Virtual Mailbox",
+    icon:'solar:inbox-line-bold-duotone'
+  },
+  {
+    key: "all-orders",
+    label: "All Orders",
+    icon:'solar:cart-5-bold-duotone'
+  },
   // {
   //   key: "settings",
   //   label: "Settings",
@@ -41,15 +50,5 @@ export const UserMenu = [
   //     }
   //   ],
   // },
-  // {
-  //   key: "reports",
-  //   label: "Reports",
-  //   icon:'solar:file-text-bold-duotone', 
-  //   children: [
-  //     { 
-  //       key: "reports/inventory-ledger-report", label: "Inventory Ledger Report" 
-  //     },
-     
-  //   ],
-  // },
+  
 ];
