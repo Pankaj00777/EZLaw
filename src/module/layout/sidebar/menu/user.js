@@ -24,6 +24,12 @@ export const UserMenu = [
     label: "All Orders",
     icon:'solar:cart-5-bold-duotone'
   },
+  {
+    key: "completed-documents",
+    label: "Completed Documents",
+    icon:'solar:document-add-bold-duotone'
+  },
+  
   // {
   //   key: "settings",
   //   label: "Settings",

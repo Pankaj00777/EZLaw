@@ -4,7 +4,7 @@ import Dashboard from "../module/user/dashboard";
 import Recommendations from "../module/user/recommendations";
 import Settings from "../module/user/settings";
 import VirtualMailBox from "../module/user/virtualMailbox";
-
+import CompletedDocuments from "../module/user/completedDocuments";
 // import MyProfile from "../module/user/settings/myProfile";
 // import PaymentMethod from "../module/user/settings/paymentMethod";
 
@@ -32,7 +32,11 @@ export const User = [
     path: "all-orders",
     element: <AllOrders />,
   },
-
+  {
+    path: "completed-documents",
+    element: <CompletedDocuments />,
+  },
+  
   // {
   //   path: "reports/inventory-ledger-report",
   //   element: <InventoryLedgerReport />,

@@ -269,7 +269,10 @@ const GlobalStyles = createGlobalStyle`
 
 
 
-
+.ant-card-hoverable:hover {
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 25px 50px -12px;
+}
 
 
 

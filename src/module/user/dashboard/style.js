@@ -20,10 +20,10 @@ export const Wrapper = styled.div`
     color: #025497;
     text-shadow: none !important;
 }
-.ant-card-hoverable:hover {
-    border-color: transparent;
-    box-shadow: 0 1px 2px -2px rgb(0 0 0 / 0%), 0 3px 16px 0 rgb(0 0 0 / 0%), 0 7px 12px 4px rgb(0 0 0 / 5%);
-}
+// .ant-card-hoverable:hover {
+//     border-color: transparent;
+//     box-shadow: 0 1px 2px -2px rgb(0 0 0 / 0%), 0 3px 16px 0 rgb(0 0 0 / 0%), 0 7px 12px 4px rgb(0 0 0 / 5%);
+// }
     .ant-table-wrapper .ant-table-thead>tr>th, .ant-table-wrapper .ant-table-thead>tr>td {
     background: #f5f5f5;
 }
