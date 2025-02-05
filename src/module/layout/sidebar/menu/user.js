@@ -15,6 +15,11 @@ export const UserMenu = [
     icon:'solar:settings-bold-duotone' 
   },
   {
+    key: "virtual-mailbox/overview",
+    label: "Virtual Mailbox Overview",
+    icon:'solar:inbox-line-bold-duotone'
+  },
+  {
     key: "virtual-mailbox",
     label: "Virtual Mailbox",
     icon:'solar:inbox-line-bold-duotone'
@@ -29,20 +34,14 @@ export const UserMenu = [
     label: "Completed Documents",
     icon:'solar:document-add-bold-duotone'
   },
+
+  {
+    key: "business-contract-templates",
+    label: "Business Contract templates",
+    icon:'solar:file-text-bold-duotone'
+  },
   
-  // {
-  //   key: "settings",
-  //   label: "Settings",
-  //   icon:'solar:settings-bold-duotone', 
-  //   children: [
-  //     { 
-  //       key: "settings/profile", label: "My Profile" 
-  //     },
-  //     { 
-  //       key: "settings/marketplace-credentials", label: "Marketplace Credentials" 
-  //     }
-  //   ],
-  // },
+
   // {
   //   key: "application-logs",
   //   label: "Application Logs",

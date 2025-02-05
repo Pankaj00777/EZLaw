@@ -1,5 +1,8 @@
 export const ProjectName = 'Layout Demo';
 
+
+export const primaryColor = "#025497";
+
 export const ORIGIN = "";
 export const ENDPOINT = `${ORIGIN}/api/api/v1/`;
 
