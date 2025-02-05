@@ -7,6 +7,8 @@ import CompletedDocuments from "../module/user/completedDocuments";
 import VirtualMailBoxOverview from "../module/user/virtualMailbox/overview";
 import VirtualMailBox from "../module/user/virtualMailbox";
 import BusinessContractTemplates from "../module/user/businessContractTemplates";
+import { element } from "prop-types";
+import CompanyInfo from "../module/user/companyInfo";
 // import MyProfile from "../module/user/settings/myProfile";
 // import PaymentMethod from "../module/user/settings/paymentMethod";
 
@@ -46,6 +48,10 @@ export const User = [
     path: "business-contract-templates",
     element: <BusinessContractTemplates />,
   },
+  {
+    path:"company-info",
+    element: <CompanyInfo />
+  }
   // {
   //   path: "reports/inventory-ledger-report",
   //   element: <InventoryLedgerReport />,

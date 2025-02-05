@@ -40,6 +40,11 @@ export const UserMenu = [
     label: "Business Contract templates",
     icon:'solar:file-text-bold-duotone'
   },
+  {
+    key: "company-info",
+    label: "Company Info",
+    icon:'solar:file-text-bold-duotone'
+  },
   
 
   // {
